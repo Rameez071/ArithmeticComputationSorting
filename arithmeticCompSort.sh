@@ -35,7 +35,6 @@ function arthematic_Compute_fourth()
 {
   echo "$(( $val1%$val2+$val3 ))"
 }
-
 result[$((count++))]="$( arthematic_Compute_fourth $(($val1,$val2,$val3)) )"
 
 echo "${result[@]}"
