@@ -13,4 +13,10 @@ function arthematic_Compute()
 
 result[$((count++))]="$( arthematic_Compute $(($val1,$val2,$val3)) )"
 
+#2nd Compute
+function arthematic_Compute_second()
+{
+  echo "$(( $val1*$val2+$val3 ))"
+}
 
+result[$((count++))]="$( arthematic_Compute_second $(($val1,$val2,$val3)) )"
