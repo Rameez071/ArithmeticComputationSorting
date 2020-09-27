@@ -20,3 +20,12 @@ function arthematic_Compute_second()
 }
 
 result[$((count++))]="$( arthematic_Compute_second $(($val1,$val2,$val3)) )"
+
+#3rd compute
+function arthematic_Compute_third()
+{
+  echo "$(( $val3+$val1/$val2 ))"
+}
+
+result[$((count++))]="$( arthematic_Compute_third $(($val1,$val2,$val3)) )"
+}
