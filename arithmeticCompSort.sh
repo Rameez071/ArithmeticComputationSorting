@@ -29,3 +29,13 @@ function arthematic_Compute_third()
 
 result[$((count++))]="$( arthematic_Compute_third $(($val1,$val2,$val3)) )"
 }
+
+#4th compute
+function arthematic_Compute_fourth()
+{
+  echo "$(( $val1%$val2+$val3 ))"
+}
+result[$((count++))]="$( arthematic_Compute_fourth $(($val1,$val2,$val3)) )"
+
+echo "${result[@]}"
+echo "${!result[@]}"
